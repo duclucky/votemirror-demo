@@ -3,6 +3,9 @@
 A standalone, read-only showcase for judges and visitors: interactive recorded
 walkthroughs, exact transaction links, a usage guide, and the narrated 2:45 film.
 
+**Public demo:** [votemirror-demo.vercel.app](https://votemirror-demo.vercel.app)
+— no account or wallet required.
+
 **Core product:** [duclucky/votemirror-reactive](https://github.com/duclucky/votemirror-reactive).
 That repository contains the real contracts, deployment scripts, sender service,
 and execution evidence. This repository contains the presentation frontend only.
