@@ -43,7 +43,7 @@ To check an existing deployment, set `DEMO_URL` before running browser tests.
 ## Evidence provenance
 
 All proof snapshots under `src/data/` come from the public core repository at
-commit `8204f38d1b2a78606bd23f3ff2f1ff6f4c9040c9`:
+commit `088b642aae5f59ebbdc1f32f69c15f43ca9dcf62`:
 
 - `submission.json`: eight-scenario suite verified on 24 November 2026.
 - `video-proof.json`: independent verification of the exact filmed run.
