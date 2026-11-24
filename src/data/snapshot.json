@@ -1,0 +1,48 @@
+{
+  "sourceCommit": "8204f38d1b2a78606bd23f3ff2f1ff6f4c9040c9",
+  "deployment": {
+    "contractVersion": 4,
+    "baseSepoliaChainId": 84532,
+    "lasnaChainId": 5318007,
+    "demoToken": "0x1c1000C7d8Ee05b97F5FF7bfCbA7c04aC9e58515",
+    "demoGovernor": "0x04bB46C2E47F640Dd94bCfC0ea2aC9191364fafb",
+    "voteMirror": "0x4a89e26aD48A2729d8D95B3b446DBC1083AEF87a",
+    "mirrorReactive": "0x81A8a6edf8B2d773FF53dc1450De4822c5756988",
+    "callbackProxy": "0x476F44b11F5C942c58f4c8E3d0300E5710743585",
+    "owner": "0xA16B597088552D596C09d18EEF3c6e20bB09B26b",
+    "trustedVoters": [
+      "0x0f8AA1b7E5D822214B235c1c8257C07965b6A2a6",
+      "0xF3Dff85E11f21A682259Fef16d5c217a29eAe63e",
+      "0x6AA709775837be9E562fe2eA9dcC383Bd14a99e4"
+    ],
+    "threshold": 2
+  },
+  "controls": {
+    "for": {},
+    "against": {},
+    "abstain": {},
+    "splitmajority": {},
+    "skip": {
+      "skip": {
+        "hash": "0x7b3ef5341782933f645710467d790445036b513534a19a35dd22ffee4ed0d9f8"
+      }
+    },
+    "retry": {
+      "retry": {
+        "hash": "0x33e8b01768cc18c2a1318388232622bdde67b342cb8bcb6470d9a278bea519df"
+      },
+      "unpause": {
+        "hash": "0x577b1f5ec312acf2ecb66a0b8f23c131cac85293ddfbd3090e974f4a08796cf1"
+      },
+      "pause": {
+        "hash": "0x9eebc6cc1ca8d4037e5e6b8731e8c7923b1ff81774cafd98a045e28fa614c457"
+      }
+    },
+    "thirdvote": {},
+    "owneroverride": {
+      "ownerOverride": {
+        "hash": "0x2aa437cdb16356d578594fa0fb32f0959f487d1a6e1cbcb949b147e0d860f309"
+      }
+    }
+  }
+}

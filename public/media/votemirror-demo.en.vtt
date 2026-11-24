@@ -1,0 +1,125 @@
+WEBVTT
+
+1
+00:00:00.700 --> 00:00:04.175
+DAO members cannot review every proposal.
+
+2
+00:00:04.200 --> 00:00:07.912
+Delegating to one person gives them all the discretion.
+
+3
+00:00:07.937 --> 00:00:13.250
+VoteMirror offers a clear policy: mirror a vote only when a chosen group
+agrees.
+
+4
+00:00:15.700 --> 00:00:20.825
+This workspace follows Alice, Bob, and Carol, with a two-of-three threshold.
+
+5
+00:00:20.850 --> 00:00:25.312
+The holder keeps their tokens and delegates voting power to VoteMirror.
+
+6
+00:00:25.337 --> 00:00:29.875
+The owner can pause mirroring, skip a proposal, or vote directly.
+
+7
+00:00:33.700 --> 00:00:37.450
+Now we are following a fresh proposal on Base Sepolia.
+
+8
+00:00:37.475 --> 00:00:42.025
+Test ballots are submitted using the project's encrypted demo wallets.
+
+9
+00:00:42.050 --> 00:00:44.100
+Alice votes For.
+
+10
+00:00:44.125 --> 00:00:48.025
+One ballot is below the threshold, so VoteMirror waits.
+
+11
+00:00:48.050 --> 00:00:50.375
+Bob also votes For.
+
+12
+00:00:50.400 --> 00:00:55.162
+Reactive observes the Governor's events on Lasna and requests a callback.
+
+13
+00:00:55.187 --> 00:01:01.400
+Back on Base, VoteMirror checks the ordered ballot receipts and current
+policy before casting its vote.
+
+14
+00:01:01.425 --> 00:01:04.950
+The Governor now records the mirrored voting power.
+
+15
+00:01:04.975 --> 00:01:08.375
+Only trusted addresses count toward the threshold.
+
+16
+00:01:08.400 --> 00:01:13.512
+The holder's voting power is used once, while the tokens remain in their own
+wallet.
+
+17
+00:01:23.700 --> 00:01:26.637
+These explorer pages show the proof.
+
+18
+00:01:26.662 --> 00:01:29.550
+The source ballot is on Base Sepolia.
+
+19
+00:01:29.575 --> 00:01:35.112
+Its matching Lasna notification carries the same origin transaction hash and
+log data.
+
+20
+00:01:35.137 --> 00:01:41.900
+The destination transaction goes through the callback proxy and records
+VoteMirror's result and the Governor's vote event.
+
+21
+00:01:52.700 --> 00:01:59.412
+Recorded tests cover disagreement, owner skips, paused delivery, retries,
+and an owner voting first.
+
+22
+00:01:59.437 --> 00:02:02.837
+Split choices do not combine into agreement.
+
+23
+00:02:02.862 --> 00:02:05.775
+A skip prevents an automated vote.
+
+24
+00:02:05.800 --> 00:02:09.362
+An extra ballot does not create a duplicate vote.
+
+25
+00:02:09.387 --> 00:02:13.900
+The evidence index links every tested path to its transactions.
+
+26
+00:02:22.700 --> 00:02:28.387
+A separate recovery sender can restore eligible votes when event delivery is
+unavailable.
+
+27
+00:02:28.412 --> 00:02:32.225
+That path is labeled separately from Reactive callbacks.
+
+28
+00:02:32.250 --> 00:02:38.775
+This is a testnet demonstration; delivery depends on network access, fee
+funding, and the voting deadline.
+
+29
+00:02:38.800 --> 00:02:43.512
+VoteMirror: your trusted circle, your voting power, your final say.
